@@ -1,0 +1,27 @@
+// TODO:
+// distance mips
+// missmatch: sizes, frames
+
+dataFormats
+
+alphaThresholds
+
+ditheringAlgoritm
+
+sizes
+
+mipsAmount
+
+frameRates
+
+
+-ffmpeg
+-fps 10
+-i1 src.png
+-v2 vid 1 6
+-i4 kaltan.png src.png
+-size 1024
+-size 512
+-size 256
+-threads 0
+-mips 9
